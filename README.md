@@ -1,6 +1,6 @@
 # performance-review-app
 
-Here will be some information about the app.
+LWC data table proof of concept.
 
 ## How to start?
 
