@@ -1,0 +1,97 @@
+table {
+    background-color: white;
+    font-size: 12px;
+    border-spacing: 0;
+    border-color: rgb(221, 219, 218);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table th,
+td {
+    padding: 5px;
+    white-space: wrap;
+    position: relative;
+    border-bottom: 1px solid #dddbda;
+}
+
+table th {
+    font-weight: bold;
+    border-top: 1px solid #dddbda;
+}
+
+thead th {
+    background-color: #fafaf9;
+    color: #514f4d;
+    font-weight: bold;
+}
+
+.fixed-layout {
+    table-layout: fixed;
+    white-space: wrap;
+}
+
+.fixed_header tbody {
+    display: block;
+    overflow: auto;
+    height: 200px;
+    width: 100%;
+}
+
+.fixed_header thead tr {
+    display: block;
+}
+
+table td {
+    width: 200px;
+}
+
+input[type='radio'] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.question-col {
+    text-align: left;
+    width: 200px;
+}
+
+.answer-col {
+    text-align: left;
+    width: 60px;
+}
+
+.date-col {
+    text-align: center;
+    width: 100px;
+}
+
+.overall-rating-col {
+    text-align: center;
+    width: 80px;
+}
+
+.notes-col {
+    text-align: left;
+    width: 120px;
+}
+
+.question-text {
+    white-space: wrap;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
